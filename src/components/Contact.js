@@ -11,6 +11,7 @@ class Contact extends Component {
   };
 
   onDeleteClick = () => {
+    this.props.deleteClickHandler()
   }
 
   render() {
